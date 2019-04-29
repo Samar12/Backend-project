@@ -1,0 +1,24 @@
+{
+  "name": "chat-app",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./bin/www",
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "div": "nodemon .",
+    "debug": "nodemon --inspect ."
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.5",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.4.22",
+    "mongoose-hidden": "^1.6.1",
+    "mongoose-integer": "^0.1.1",
+    "morgan": "~1.9.0",
+    "validator": "^10.11.0"
+  }
+}
